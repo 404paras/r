@@ -8,5 +8,7 @@ AIML = function(x){
 
   boxplot(x , col='green')
   par(mfrow = c(1,1))
+  
+  data.frame(min = min(x),median = median(x),sd = sd(x))
 
 }
